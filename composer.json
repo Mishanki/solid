@@ -1,0 +1,15 @@
+{
+  "description": "SOLID Principles",
+  "keywords": ["SOLID", "Patterns", "Principles", "Practices"],
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "Services\\": "Services",
+          "App\\": "App"
+      }
+  },
+  "require": {
+    "php": "^8.2",
+    "friendsofphp/php-cs-fixer": "^3.0"
+  }
+}
