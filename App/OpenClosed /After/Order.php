@@ -21,8 +21,9 @@ class Order
     /**
      * @param Shipping $shipping
      */
-    public function __construct(private Shipping $shipping)
-    {}
+    public function __construct(protected Shipping $shipping)
+    {
+    }
 
     /**
      * @return int
